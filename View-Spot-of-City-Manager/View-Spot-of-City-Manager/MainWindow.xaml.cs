@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using GaodeSpotViewHelp;
+
 namespace View_Spot_of_City_Manager
 {
     /// <summary>
@@ -23,6 +25,7 @@ namespace View_Spot_of_City_Manager
         public MainWindow()
         {
             InitializeComponent();
+            GaodeSpotViewMaster.GenerateCsvFile("beijing", "dc453323b38b08871eca3126a51e2d58", "d:\\ViewSpotData_beijing.csv");
         }
     }
 }
