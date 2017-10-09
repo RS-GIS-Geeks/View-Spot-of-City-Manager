@@ -1,9 +1,0 @@
-﻿<Application x:Class="View_Spot_of_City_Manager.GetSpotViewData.App"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:View_Spot_of_City_Manager.GetSpotViewData"
-             StartupUri="MainWindow.xaml">
-    <Application.Resources>
-         
-    </Application.Resources>
-</Application>
